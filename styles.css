@@ -24,9 +24,9 @@ header {
   padding: 1rem 2rem;
 }
 
-.logo {
-  font-weight: bold;
-  font-size: 1.5rem;
+.logo img {
+  width: 75px;
+  height: 75px;
 }
 
 .nav-links {
@@ -49,19 +49,27 @@ header {
 }
 
 .hero h1 {
+  font-family: 'Lora', serif;
+  color: #224229;
   margin-bottom: 1rem;
 }
 
-.hero-image {
-  height: 200px;
-  background-color: #D4AF37;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+.hero-img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Optional: adjust as needed */
+  object-fit: cover;  /* Keeps it clean and contained */
+  border-radius: 8px; /* Optional styling */
 }
 
+
 /* Info Blocks */
+.text {
+    background-color: #F7CAC9;
+    border-style: solid;
+    padding: 7.5px;
+}
+
 .info-block {
   padding: 2rem;
 }
@@ -77,14 +85,17 @@ header {
   flex-direction: row-reverse;
 }
 
-.image-placeholder {
+.image-placeholder img {
   width: 300px;
-  height: 100px;
+  height: 300px;
   background-color: #B8A293;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  padding: 7.5px;
+  border-style: solid;
+  border-width: 10px;
 }
 
 .text h2 {
