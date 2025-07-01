@@ -78,8 +78,8 @@ header {
 }
 
 .image-placeholder {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 100px;
   background-color: #B8A293;
   display: flex;
   align-items: center;
