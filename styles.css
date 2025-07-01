@@ -1,0 +1,112 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #224229;
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  font-family: 'Lora', serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B8A293;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #224229;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F7CAC9;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-image {
+  height: 200px;
+  background-color: #D4AF37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Info Blocks */
+.info-block {
+  padding: 2rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.info-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: #B8A293;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.text h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #224229;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #F7CAC9;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.footer-contact {
+  margin-top: 0.5rem;
+}
