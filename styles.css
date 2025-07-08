@@ -121,3 +121,42 @@ footer {
 .footer-contact {
   margin-top: 0.5rem;
 }
+
+.gallery-hero {
+  text-align: center;
+  background-color: #F7CAC9;
+  padding: 2rem;
+}
+
+.gallery-hero h1 {
+  font-family: 'Lora', serif;
+  color: #224229;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-hero p {
+  font-size: 1.1rem;
+  color: #224229;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border: 8px solid #B8A293;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
