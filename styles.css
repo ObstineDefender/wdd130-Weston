@@ -21,12 +21,12 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #B8A293;
-  padding: 1rem 2rem;
+  padding: 0.00001%;
 }
 
 .logo img {
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
 }
 
 .nav-links {
@@ -46,21 +46,20 @@ header {
   text-align: center;
   padding: 2rem;
   background-color: #F7CAC9;
+  background-image: url(images/home1_edit.png);
+  height: 400px;
+  background-position: center;
 }
 
 .hero h1 {
   font-family: 'Lora', serif;
-  color: #224229;
+  color: #90d89f;
   margin-bottom: 1rem;
+  text-shadow: 2px 2px black;
+  font-size: 40px;
 }
 
-.hero-img {
-  width: 100%;
-  height: auto;
-  max-height: 400px; /* Optional: adjust as needed */
-  object-fit: cover;  /* Keeps it clean and contained */
-  border-radius: 8px; /* Optional styling */
-}
+
 
 
 /* Info Blocks */
