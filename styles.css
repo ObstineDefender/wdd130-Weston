@@ -183,7 +183,7 @@ footer {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr); /* now 4 columns */
   gap: 2rem;
   padding: 1rem 3rem 3rem;
 }
